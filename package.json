@@ -6,6 +6,10 @@
   "main": "lib/zn-ui.umd.min.js",
   "keywords": "zn-ui",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoey-git/zn-ui.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
