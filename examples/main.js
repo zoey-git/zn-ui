@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import ZnUI from './../packages'
+
+Vue.use(ZnUI)
+
 Vue.config.productionTip = false
 
 new Vue({
