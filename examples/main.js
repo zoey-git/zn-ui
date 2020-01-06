@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import ZnUI from './../packages'
+import ZnUI from '../packages'
+import '../lib/theme-chalk/index.css'
 
 Vue.use(ZnUI)
 

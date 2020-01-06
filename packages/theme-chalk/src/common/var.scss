@@ -1,0 +1,78 @@
+
+
+// 文字
+$--font-path: 'fonts' !default;
+$--font-display: 'auto' !default;
+// 超大文字
+$--font-size-extra-large: 20px !default;
+// 大文字
+$--font-size-large: 18px !default;
+$--font-size-medium: 16px !default;
+// 基础文字大小
+$--font-size-base: 14px !default;
+// 小文字
+$--font-size-small: 13px !default;
+// 超小文字
+$--font-size-extra-small: 12px !default;
+$--font-weight-primary: 500 !default;
+
+
+/*Color
+----------------*/
+$--color-primary: #22b6ed !default;
+$--color-white: #fff !default;
+$--color-black: #000 !default;
+// 按比例混合颜色
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default;
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default;
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default;
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default;
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default;
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default;
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default;
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default;
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default;
+$--color-success: #078e82 !default;
+$--color-warning: #f67e2a !default;
+$--color-danger: #be3223 !default;
+$--color-info: #bbbfc2 !default;
+
+
+$--color-text-primary: #303133 !default;
+$--color-text-regular: #69686d !default;
+$--color-text-placeholder: #c0c4cc !default;
+
+$--border-color-base: #e5e4e9 !default;
+$--border-color-lighter: #ebeef5 !default;
+
+/* Border
+------------------*/
+$--border-width-base: 1px !default;
+$--border-style-base: solid !default;
+$--border-radius-base: 4px !default;
+$--border-radius-small: 2px !default;
+$--border-color-hover: $--color-text-placeholder !default;
+$--border-base: $--border-width-base $--border-style-base $--border-color-base !default;
+
+
+
+/*Button
+-------------*/
+$--button-font-size: $--font-size-base !default;
+$--button-border-radius: $--border-radius-base !default;
+$--button-padding-vertical: 12px !default;
+$--button-padding-horizontal: 20px !default;
+$--button-default-font-color: $--color-text-regular !default;
+$--button-default-background-color: $--color-white !default;
+$--button-default-border-color: $--border-color-base !default;
+$--button-active-shade-percent: 10%;
+
+$--button-disabled-font-color: $--color-text-placeholder !default;
+$--button-disabled-background-color: $--color-white !default;
+$--button-disabled-border-color: $--border-color-lighter !default;
+$--button-hover-tint-percent: 20% !default;
+
+$--button-primary-border-color: $--color-primary !default;
+
+$--button-primary-font-color: $--color-white !default;
+$--button-primary-background-color: $--color-primary !default;

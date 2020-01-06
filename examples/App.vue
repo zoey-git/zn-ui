@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <zn-test></zn-test>
+    <zn-button type="primary" circle plain>哈哈哈</zn-button>
   </div>
 </template>
 

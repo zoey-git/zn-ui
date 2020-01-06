@@ -1,7 +1,9 @@
 import ZnTest from './test'
+import ZnButton from './button'
 
 const components = [
-    ZnTest
+    ZnTest,
+    ZnButton
 ]
 
 const install = (Vue) => {
