@@ -12,6 +12,7 @@ module.exports = {
         config.resolve.alias
             .set('@', path.resolve('examples'))
             .set('~', path.resolve('packages'))
+            .set('src', path.resolve('src'))
         config.module
             .rule('js')
             .include.add('/packages/').end()
